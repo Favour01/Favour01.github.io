@@ -24,3 +24,7 @@ body{
 .date{
 	font-style: italic;
 }
+
+img {
+    border-radius: 50px;
+}
