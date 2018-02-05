@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+	background: #3172ae;
+	color: #FFFFFF;
+	font-size: 85px;
+	margin-top: 0;
+}
+
+body{
+	background-image: url("option2.jpg");
+	text-align: center;
+}
+
+.bio{
+	-webkit-margin-start: 60px;
+    	-webkit-margin-end: 60px;
+}
+
+.subheader{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.date{
+	font-style: italic;
+}
