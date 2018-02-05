@@ -1,0 +1,40 @@
+h1{
+	text-align: center;
+	background: #3172ae;
+	color: #FFFFFF;
+	font-size: 85px;
+	margin-top: 0;
+}
+
+body{
+	background-image: url("option2.jpg");
+}
+
+.subheader{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.date{
+	font-style: italic;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
