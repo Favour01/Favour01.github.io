@@ -1,4 +1,36 @@
-h1{
+body{
+	background-image: url("option2.jpg");
+	text-align: center;
+}
+
+img {
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+	font-size: 30px;
+	font-weight: bold;
+}
+/* unvisited link */
+a:link {
+    color: blue;
+}
+/* visited link */
+a:visited {
+    color: purple;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
+/* selected link */
+a:active {
+    color: black;
+}
+
+#header{
 	text-align: center;
 	background: #3172ae;
 	color: #FFFFFF;
@@ -6,9 +38,12 @@ h1{
 	margin-top: 0;
 }
 
-body{
-	background-image: url("option2.jpg");
+#footer{
 	text-align: center;
+	background: #3172ae;
+	color: #FFFFFF;
+	font-size: 25px;
+	margin-top: 0px;
 }
 
 .bio{
@@ -23,8 +58,4 @@ body{
 
 .date{
 	font-style: italic;
-}
-
-img {
-    border-radius: 50px;
 }

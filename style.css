@@ -1,13 +1,38 @@
-h1{
+body{
+	background-image: url("option2.jpg");
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+/* visited link */
+a:visited {
+    color: purple;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
+/* selected link */
+a:active {
+    color: black;
+}
+
+#header{
 	text-align: center;
 	background: #3172ae;
 	color: #FFFFFF;
-	font-size: 85px;
 	margin-top: 0;
+	font-size: 85px;
 }
 
-body{
-	background-image: url("option2.jpg");
+#footer{
+	text-align: center;
+	background: #3172ae;
+	color: #FFFFFF;
+	font-size: 25px;
+	margin-top: 0px; 
 }
 
 .subheader{
@@ -17,24 +42,4 @@ body{
 
 .date{
 	font-style: italic;
-}
-
-/* unvisited link */
-a:link {
-    color: blue;
-}
-
-/* visited link */
-a:visited {
-    color: purple;
-}
-
-/* mouse over link */
-a:hover {
-    color: white;
-}
-
-/* selected link */
-a:active {
-    color: black;
 }
